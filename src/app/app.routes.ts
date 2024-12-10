@@ -1,8 +1,9 @@
-import { Routes } from '@angular/router';
+import { Router, Routes } from '@angular/router';
 
 export const routes: Routes = [
-    {
-        path:'/',
-        loadComponent: () => import('./componentes/dragndrop/dragndrop.component')
-    }
-]as Routes;
+{
+    path:'',
+    loadComponent: ()=> import('./componentes/reporteador/reporteador.component')
+
+}
+] as Routes;

@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { DragndropComponent } from './dragndrop.component';
+import { AspectosComponent } from './aspectos.component';
 
-describe('DragndropComponent', () => {
-  let component: DragndropComponent;
-  let fixture: ComponentFixture<DragndropComponent>;
+describe('AspectosComponent', () => {
+  let component: AspectosComponent;
+  let fixture: ComponentFixture<AspectosComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [DragndropComponent]
+      imports: [AspectosComponent]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(DragndropComponent);
+    fixture = TestBed.createComponent(AspectosComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
